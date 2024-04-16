@@ -86,9 +86,9 @@ const Header = () => {
               onMouseLeave={hovertohide}
             >
               <span className="flex items-center gap-1 mr-2  ">
-                <Flag countryCode={"US"} className="w-4 h-4" />
-                <Flagfr countryCode={"FR"} className="w-4 h-4" />
-                <Flagsp countryCode={"SP"} className="w-4 h-4" />
+                <Flag countrycode={"US"} className="w-4 h-4" />
+                <Flagfr countrycode={"FR"} className="w-4 h-4" />
+                <Flagsp countrycode={"SP"} className="w-4 h-4" />
               </span>
               Do you need help?
               <FaSortDown />
@@ -114,7 +114,7 @@ const Header = () => {
                 ""
               )}
             </div>
-            <div class="text-white font-bold text-sm  hidden sm:hidden md:block lg:block xl:block">
+            <div className="text-white font-bold text-sm  hidden sm:hidden md:block lg:block xl:block">
               SIGN UP FOR OUR NEWSLETTER & RECEIVE 10% OFF YOUR FIRST ORDER
             </div>
 
