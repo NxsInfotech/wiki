@@ -264,7 +264,7 @@ const Blog = () => {
             Either way, we’ll be happy to hear from you.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 sm:grid-cols-1   md:w-[70%]  h-auto mx-auto ">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1   md:w-[70%]  h-auto mx-auto mb-10">
           <div className="border border-black">
             <p className="p-4 text-xl">
               If you’re interested in procuring a larger volume, our expert
