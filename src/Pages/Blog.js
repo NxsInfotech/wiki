@@ -13,11 +13,11 @@ const Blog = () => {
       <section className="h-auto w-full ">
         <div className="  ">
           <div
-            className="hidden sm:block md:grid md:grid-cols-2 bg-cover bg-center bg-no-repeat h-[450px]"
+            className="hidden  lg:grid lg:grid-cols-2 bg-cover bg-center bg-no-repeat h-auto p-14"
             style={{ backgroundImage: `url(${Laptopscreenwash})` }}
           >
             <div></div>
-            <div className="md:w-[550px] sm:w-auto h-[450px] pl-5">
+            <div className="w-full sm:w-full  lg:w-[80%] h-auto pl-5">
               <h1 className="text-3xl font-bold text-center p-4 font-serif text-gray-700">
                 ABOUT US
               </h1>
@@ -38,20 +38,20 @@ const Blog = () => {
             </div>
           </div>
           <div
-            className="block sm:block md:hidden  h-[600px] "
+            className="block sm:block lg:hidden xl:hidden sm:h-auto md:h-auto lg:h-[600px]  xl:h-[600px]  bg-cover bg-no-repeat w-full"
             style={{ backgroundImage: `url(${Laptopscreenwashsm})` }}
           >
             <h1 className="text-3xl font-bold text-center p-4 font-serif text-gray-700">
               ABOUT US
             </h1>
             <hr className="w-[80%] mx-auto border-blue-300 border mt-3" />
-            <p className="text-center text-xl mt-3 text-gray-700">
+            <p className="text-center text-xl mt-3 text-gray-700 ">
               Welcome to iCloth. We’re happy you’ve chosen to come see us and
               hope you’ll feel your time here is well spent. Along the way, you
               may be surprised to see how we can make such a big deal about such
               a small product.
             </p>
-            <p className="text-center text-xl mt-5 text-gray-700">
+            <p className="text-center text-xl mt-5 text-gray-700 pb-10">
               We’ve been specializing in making products to clean what we call
               sensitive optical surfaces since 2001. It all started with
               eyewear, then came to include in-flight entertainment screens in a
@@ -69,7 +69,9 @@ const Blog = () => {
             </div>
             <div className="flex justify-center items-center p-10">
               <div>
-                <h1 className="text-2xl font-semibold">Our Product</h1>
+                <h1 className="text-2xl font-semibold text-center sm:text-center md:text-start lg:text-start xl:text-start ">
+                  Our Product
+                </h1>
                 <p className="text-xl  mt-5 text-gray-700 ">
                   {" "}
                   As you browse our site, you’ll discover how our Avionics
@@ -83,20 +85,29 @@ const Blog = () => {
                   extensive testing and we don’t sell anything that we don’t use
                   ourselves on a daily basis.
                 </p>
-                <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5">
-                  Shop iCloth{" "}
-                  <MdOutlineKeyboardArrowRight
-                    size={20}
-                    className="font-bold"
-                  />
-                </button>
+                <span className=" flex justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start  lg:text-start xl:text-start ">
+                  {" "}
+                  <a
+                    className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5 w-44 cursor-pointer"
+                    href="https://icloth.io/collections/all"
+                    target="blank"
+                  >
+                    Shop iCloth{" "}
+                    <MdOutlineKeyboardArrowRight
+                      size={20}
+                      className="font-bold"
+                    />
+                  </a>
+                </span>
               </div>
             </div>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 w-full border ">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 w-full  ">
             <div className="flex justify-center items-center p-10">
               <div>
-                <h1 className="text-2xl font-semibold">Our Promise</h1>
+                <h1 className="text-2xl font-semibold text-center sm:text-center md:text-start lg:text-start xl:text-start">
+                  Our Promise
+                </h1>
                 <p className="text-xl  mt-5 text-gray-700 ">
                   {" "}
                   Our prices are great, but we hope that you are looking for
@@ -108,13 +119,26 @@ const Blog = () => {
                   prices are good, our products and the way we take care of our
                   customers are even better.
                 </p>
-                <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5">
+                {/* <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5">
                   Contact Us{" "}
                   <MdOutlineKeyboardArrowRight
                     size={20}
                     className="font-bold"
                   />
-                </button>
+                </button> */}
+                <span className=" flex justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start  lg:text-start xl:text-start ">
+                  <a
+                    className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5 w-44 cursor-pointer"
+                    href="https://icloth.io/pages/contact"
+                    target="blank"
+                  >
+                    Contact Us{" "}
+                    <MdOutlineKeyboardArrowRight
+                      size={20}
+                      className="font-bold"
+                    />
+                  </a>
+                </span>
               </div>
             </div>
             <div className="border h-[800px] object-fill bg-no-repeat w-full ">
@@ -124,10 +148,10 @@ const Blog = () => {
           </div>
         </div>
       </section>
-      <section className="sm:h-auto md:h-[400px] w-full">
+      <section className="h-auto  w-full">
         {" "}
         <div
-          className="bg-cover bg-no-repeat h-full flex justify-center items-center "
+          className="bg-cover bg-no-repeat h-full pt-5 flex justify-center items-center "
           style={{ backgroundImage: `url(${testimonialimg})` }}
         >
           <div className="  w-full h-auto">
@@ -135,7 +159,7 @@ const Blog = () => {
             <h3 className="text-center font-semibold mt-3 text-2xl">
               Delightful Feedback
             </h3>
-            <p className="text-xl  mt-5 text-gray-700 sm:w-full md:w-[1000px]  mx-auto text-center ">
+            <p className="text-xl  mt-5 text-gray-700 w-full p-10  mx-auto text-center ">
               What we love hearing most is when people say they had no idea they
               even needed our product and now they can’t live without it. We
               also love hearing how happy people are that all the components
@@ -143,19 +167,27 @@ const Blog = () => {
               New Jersey. The positive product reviews keep pouring in, and we
               can’t wait to hear what you think.
             </p>
-            <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5 mx-auto mb-10 ">
+            {/* <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2 mt-5 mx-auto mb-10 ">
               Shop iCloth{" "}
               <MdOutlineKeyboardArrowRight size={20} className="font-bold" />
-            </button>
+            </button> */}{" "}
+            <a
+              className="text-lg bg-[#009ad4] text-white px-5 py-2 mb-10 font-semibold flex items-center mx-auto gap-2  w-44 cursor-pointer"
+              href="https://icloth.io/collections/all"
+              target="blank"
+            >
+              Shop iCloth{" "}
+              <MdOutlineKeyboardArrowRight size={20} className="font-bold" />
+            </a>
           </div>
         </div>
       </section>
       <section className="sm:h-auto md:h-[660px]   w-full   relative">
-        <div className="h-[500px]  md:h-[500px] w-full  bg-[#009ad4] relative">
+        <div className="sm:h-[350px] lg:h-[500px] xl:h-[500px]  md:h-[500px] w-full  bg-[#009ad4] relative">
           <h3 className="text-center font-semibold text-2xl text-white pt-10">
             FlightChops
           </h3>
-          <p className="text-xl mt-5 md:w-[1000px] w-full mx-auto text-center text-white">
+          <p className="text-xl mt-5  w-full mx-auto text-center p-0 lg:p-10 text-white">
             We’ve become really fascinated with aviation and recently began
             sponsoring FlightChops, which is all about fully immersive flying
             videos and is a passionate community of pilots and flying
@@ -164,20 +196,21 @@ const Blog = () => {
             most entertaining way. I invite you to watch it now, it’s really one
             of a kind.
           </p>
-          <div className="absolute mx-auto flex justify-center h-auto md:top-72 w-full p-4 ">
+          <div className="absolute mx-auto flex justify-center h-auto   md:top-72 w-full p-4 ">
             <iframe
+              id="ytplayer"
               title="YouTube video player 1"
               allowFullScreen=""
               allow="autoplay; fullscreen"
-              src="https://www.youtube.com/embed/HBRH_GCFjCE?feature=oembed?playlist=eJCz-dwy7AM&mute=1&autoplay=1&loop=1&controls=1"
-              className="lazyloaded mx-auto sm:w-[200px] md:w-[600px] sm:h-[180px]  md:h-[360px] sm:bg-white sm:p-4"
+              src="https://www.youtube.com/embed/HBRH_GCFjCE?&mute=1&controls=1&rel=0&autoplay=0"
+              class="lazyloaded mx-auto sm:w-[200px] md:w-[600px] sm:h-[180px] md:h-[360px] sm:bg-white sm:p-4"
             ></iframe>
           </div>
         </div>
       </section>
       <section className="h-auto w-full mt-28 md:mt-5">
-        <div className="bg-[#f2f2f2]  w-[90%] mx-auto rounded-xl  h-auto  md:h-[280px] border    ">
-          <p className="text-xl  p-10 sm:w-full  md:w-[1000px]  mx-auto text-center text-gray-500 ">
+        <div className="bg-[#f2f2f2]  w-[90%] mx-auto rounded-xl  h-auto   border    ">
+          <p className="text-xl  p-10 w-full   mx-auto text-center text-gray-500 ">
             On behalf of our team, I’d like to personally thank you for dropping
             by our new online home. Our goal was to make iclothavionics.com a
             nice spot to visit and easy to navigate, but since the team at
@@ -185,10 +218,14 @@ const Blog = () => {
             be wondering about something specific or need some assistance. We’ve
             tried to cover some of those topics in our FAQ section.
           </p>
-          <button className="text-lg bg-[#009ad4] text-white px-5 py-2 font-semibold flex items-center gap-2  mx-auto   mb-10">
+          <a
+            className="text-lg bg-[#009ad4] text-white px-5 py-2 mb-10 font-semibold flex items-center mx-auto gap-2 mt-5 w-48 cursor-pointer"
+            href="https://icloth.io/pages/faqs"
+            target="blank"
+          >
             Visit Our FAQ
             <MdOutlineKeyboardArrowRight size={20} className="font-bold" />
-          </button>
+          </a>
         </div>
         <div className="grid md:grid-cols-2 sm:grid-cols-1 md:w-[70%] h-auto mx-auto mt-5">
           <div className="border border-black">
@@ -237,7 +274,7 @@ const Blog = () => {
             </p>
           </div>
           <div className="border border-black mt-5 md:mt-0">
-            <p className="p-4 text-xl md:text-center">
+            <p className="p-4 text-xl sm:text-center md:text-center">
               {" "}
               Looking forward,
               <br /> Peter Hartlen <br /> CEO <br /> Devonshire Industries

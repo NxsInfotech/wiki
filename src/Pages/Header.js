@@ -76,10 +76,10 @@ const Header = () => {
     setProducts(false);
   };
   return (
-    <header className="h-auto md:h-[200px] lg:h-[200px] xl:h-[200px]  w-full ">
+    <header className="h-auto  lg:h-[200px] xl:h-[200px]  w-full ">
       <main className=" mx-auto h-full bg-white ">
         <div className="h-[50px] w-full bg-[#009ad4] ">
-          <div className="max-w-[1605px] mx-auto h-full flex justify-center sm:justify-center md:justify-between lg:justify-between xl:justify-between items-center">
+          <div className="max-w-[1605px] mx-auto h-full flex justify-center sm:justify-center md:justify-center lg:justify-between xl:justify-between items-center">
             <div
               className=" font-bold flex items-center text-white relative pl-10 text-sm     "
               onMouseEnter={hovertoshow}
@@ -114,11 +114,11 @@ const Header = () => {
                 ""
               )}
             </div>
-            <div className="text-white font-bold text-sm  hidden sm:hidden md:block lg:block xl:block">
+            <div className="text-white font-bold text-sm  hidden sm:hidden md:hidden lg:block xl:block">
               SIGN UP FOR OUR NEWSLETTER & RECEIVE 10% OFF YOUR FIRST ORDER
             </div>
 
-            <div className="text-white  font-bold  items-center gap-3 pr-10 text-sm hidden   sm:hidden md:flex lg:flex xl:flex">
+            <div className="text-white  font-bold  items-center gap-3 pr-10 text-sm hidden   sm:hidden md:hidden lg:flex xl:flex">
               CONNECT WITH US :{" "}
               <a
                 href="https://www.facebook.com/iclothcleaningwipes"
@@ -139,7 +139,7 @@ const Header = () => {
         </div>
         {/* Start  mobile devices */}
         <div className="h-auto   ">
-          <div className="flex  sm:flex items-center justify-between md:hidden lg:hidden xl:hidden px-5 ">
+          <div className="flex  sm:flex items-center justify-between md:flex lg:hidden xl:hidden px-5 ">
             <div className=" flex items-center">
               {mobiledropdown ? (
                 <RxCross2
@@ -371,7 +371,7 @@ const Header = () => {
           )}
         </div>
         {/* End  mobile devices */}
-        <div className="h-auto  md:h-[90px] w-full   bg-white shadow-black drop-shadow ">
+        <div className="h-auto  lg:h-[90px] w-full   bg-white shadow-black drop-shadow ">
           <div className="max-w-[1605px] h-full mx-auto  flex justify-around   items-center  ">
             <div className=" ">
               <a
@@ -382,11 +382,11 @@ const Header = () => {
                 <img
                   src={icon}
                   alt="icon"
-                  className="object-fill hidden sm:hidden md:block lg:block xl:block  "
+                  className="object-fill hidden sm:hidden md:hidden lg:block xl:block  "
                 />
               </a>
             </div>
-            <div className="flex items-start  w-full sm:w-full  md:w-[40%] lg:w-[40%] xl:w-[40%] ">
+            <div className="flex items-start  w-full sm:w-full  md:w-full lg:w-[40%] xl:w-[40%] ">
               <input
                 type="text"
                 className="   pl-2 py-2  border rounded-l-md w-full "
@@ -397,7 +397,7 @@ const Header = () => {
                 SEARCH
               </button>
             </div>
-            <div className="hidden items-center   sm:hidden md:flex lg:flex xl:flex  ">
+            <div className="hidden items-center   sm:hidden md:hidden lg:flex xl:flex  ">
               <button className=" border-[#009ad4] border-2  text-[#009ad4] px-3 py-1 rounded-lg text-xl flex items-center ">
                 <a
                   href="https://icloth.io/cart"
@@ -421,10 +421,10 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center h-[60px] bg-white  shadow-sm   hidden sm:hidden md:block lg:block xl:block ">
-          <ul className="flex justify-center items-center  gap-5 font-semibold  text-[16px] text-gray-700 ">
+        <div className="flex justify-center items-center h-[60px] bg-white  shadow-sm   hidden sm:hidden md:hidden lg:block xl:block ">
+          <ul className="flex justify-center items-center  gap-5 font-semibold  text-[16px] text-gray-700  ">
             <li
-              className="cursor-pointer flex items-center gap-1 relative h-[60px] "
+              className="cursor-pointer flex items-center gap-1 relative h-[60px]  "
               onMouseEnter={hovertoshowuses}
               onMouseLeave={hovertohideuses}
             >
@@ -438,7 +438,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes-for-personal-devices-surfaces-clean-all-kinds-of-electronics-and-sensitive-surfaces-pharmaceutical-grade-formula-lint-free-cloth"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer text-xs p-2 flex items-center gap-2">
                           <IoMdArrowDropright />
@@ -448,7 +448,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer text-xs p-2 flex items-center gap-2">
                           <IoMdArrowDropright />
@@ -458,7 +458,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/products/icloth-xl-screen-and-multi-surface-cleaning-wipes"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer text-xs p-2 flex items-center gap-2">
                           <IoMdArrowDropright />
@@ -468,7 +468,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/products/icloth-large-screen-cleaning-wipes"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer text-xs p-2 flex items-center gap-2">
                           <IoMdArrowDropright /> SENSITIVE ELECTRONICS UP TO 32"
@@ -477,7 +477,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/products/icloth-lens-and-screen-cleaner"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer text-xs p-2 flex items-center gap-2">
                           <IoMdArrowDropright /> EYEWEAR AND CAMERA LENSES
@@ -491,7 +491,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright /> AT HOMES
@@ -501,7 +501,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright /> AT WORK
@@ -511,7 +511,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright />
@@ -522,7 +522,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright />
@@ -533,7 +533,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright />
@@ -543,7 +543,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright />
@@ -553,7 +553,7 @@ const Header = () => {
                       <a
                         href="https://icloth.io/pages/discover"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noreferrer"
                       >
                         <li className="hover:bg-gray-200 cursor-pointer flex items-center gap-2 text-xs p-2">
                           <IoMdArrowDropright />
