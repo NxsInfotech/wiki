@@ -183,7 +183,7 @@ const Blog = () => {
         </div>
       </section>
       <section className="sm:h-auto md:h-[660px]   w-full   relative">
-        <div className="sm:h-[350px] lg:h-[500px] xl:h-[500px]  md:h-[500px] w-full  bg-[#009ad4] relative">
+        <div className=" h-[350px] sm:h-[350px] lg:h-[500px] xl:h-[500px]  md:h-[500px] w-full  bg-[#009ad4] relative">
           <h3 className="text-center font-semibold text-2xl text-white pt-10">
             FlightChops
           </h3>

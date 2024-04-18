@@ -220,21 +220,52 @@ const Header = () => {
                         </p>
                         {mobilewhatuses && (
                           <ul>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              LARGE NON-POROUS SURFACES
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              PERSONAL DEVICES UP TO 32*
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              LARGE SENSITIVE SURFACES
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              SENSITIVE ELECTRONICS UP TO 32*
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              EYEWEAR AND CAMERA LENSES
-                            </li>
+                            <a
+                              href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes-for-personal-devices-surfaces-clean-all-kinds-of-electronics-and-sensitive-surfaces-pharmaceutical-grade-formula-lint-free-cloth"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              {" "}
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                LARGE NON-POROUS SURFACES
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                PERSONAL DEVICES UP TO 32*
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/products/icloth-xl-screen-and-multi-surface-cleaning-wipes"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                LARGE SENSITIVE SURFACES
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/products/icloth-large-screen-cleaning-wipes"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                SENSITIVE ELECTRONICS UP TO 32*
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/products/icloth-lens-and-screen-cleaner"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                EYEWEAR AND CAMERA LENSES
+                              </li>
+                            </a>
                           </ul>
                         )}
                       </div>
@@ -255,27 +286,71 @@ const Header = () => {
                         </p>
                         {mobileuses && (
                           <ul>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              AT HOME
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              AT WORK
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              ON-THE-GO
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              IN EDUCATION
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              IN AVIATION
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              IN HOSPITALITY
-                            </li>
-                            <li className="hover:bg-gray-400 p-3 pl-4">
-                              DISCOVER MORE
-                            </li>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                AT HOME
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                AT WORK
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              {" "}
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                ON-THE-GO
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                IN EDUCATION
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                IN AVIATION
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                IN HOSPITALITY
+                              </li>
+                            </a>
+                            <a
+                              href="https://icloth.io/pages/discover"
+                              target="black"
+                              rel="noreferrer"
+                            >
+                              {" "}
+                              <li className="hover:bg-gray-400 p-3 pl-4">
+                                DISCOVER MORE
+                              </li>
+                            </a>
                           </ul>
                         )}
                       </div>
@@ -317,12 +392,24 @@ const Header = () => {
                         {mobilewipesalcohol && (
                           <>
                             <ul>
-                              <li className="hover:bg-gray-400 p-3 pl-4">
-                                XL WIPES
-                              </li>
-                              <li className="hover:bg-gray-400 p-3 pl-4">
-                                LARGE WIPES
-                              </li>
+                              <a
+                                href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes-for-personal-devices-surfaces-clean-all-kinds-of-electronics-and-sensitive-surfaces-pharmaceutical-grade-formula-lint-free-cloth"
+                                target="black"
+                                rel="noreferrer"
+                              >
+                                <li className="hover:bg-gray-400 p-3 pl-4">
+                                  XL WIPES
+                                </li>
+                              </a>
+                              <a
+                                href="https://icloth.io/products/icloth-70-isopropyl-alcohol-cleaning-wipes"
+                                target="black"
+                                rel="noreferrer"
+                              >
+                                <li className="hover:bg-gray-400 p-3 pl-4">
+                                  LARGE WIPES
+                                </li>
+                              </a>
                             </ul>
                           </>
                         )}
@@ -345,26 +432,66 @@ const Header = () => {
                         {mobilewipescleaning && (
                           <>
                             <ul>
-                              <li className="hover:bg-gray-400 p-3 pl-4">
-                                XL WIPES
-                              </li>
-                              <li className="hover:bg-gray-400 p-3 pl-4">
-                                LARGE WIPES
-                              </li>
-                              <li className="hover:bg-gray-400 p-3 pl-4">
-                                SMALL WIPES
-                              </li>
+                              <a
+                                href="https://icloth.io/products/icloth-xl-screen-and-multi-surface-cleaning-wipes"
+                                target="black"
+                                rel="noreferrer"
+                              >
+                                <li className="hover:bg-gray-400 p-3 pl-4">
+                                  XL WIPES
+                                </li>
+                              </a>
+                              <a
+                                href="https://icloth.io/products/icloth-large-screen-cleaning-wipes"
+                                target="black"
+                                rel="noreferrer"
+                              >
+                                <li className="hover:bg-gray-400 p-3 pl-4">
+                                  LARGE WIPES
+                                </li>
+                              </a>
+
+                              <a
+                                href="https://icloth.io/products/icloth-lens-and-screen-cleaner"
+                                target="black"
+                                rel="noreferrer"
+                              >
+                                <li className="hover:bg-gray-400 p-3 pl-4">
+                                  SMALL WIPES
+                                </li>
+                              </a>
                             </ul>
                           </>
                         )}
                       </div>
                     </>
                   )}
-                  <div className=" py-3 ">DISCOVER</div>
-                  <div className=" py-3 ">OUR STORY</div>
-                  <div className=" py-3 ">FAQ</div>
-                  <div className=" py-3 ">OUR BLOG</div>
-                  <div className=" py-3 ">CONTACT US</div>
+
+                  <div className=" py-3  ">
+                    <a href="https://icloth.io/pages/discover" target="blank">
+                      DISCOVER
+                    </a>
+                  </div>
+                  <div className=" py-3  ">
+                    <a href="https://icloth.io/pages/about-us" target="blank">
+                      OUR STORY
+                    </a>
+                  </div>
+                  <div className=" py-3  ">
+                    <a href="https://icloth.io/pages/faqs" target="blank">
+                      FAQ
+                    </a>
+                  </div>
+                  <div className=" py-3  ">
+                    <a href="https://icloth.io/pages/blog" target="blank">
+                      OUR BLOG
+                    </a>
+                  </div>
+                  <div className=" py-3   ">
+                    <a href="https://icloth.io/pages/contact" target="blank">
+                      CONTACT US
+                    </a>
+                  </div>
                 </div>
               </ul>
             </div>
