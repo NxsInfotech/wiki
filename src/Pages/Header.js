@@ -174,7 +174,13 @@ const Header = () => {
             </div>
 
             <div className="">
-              <FaShoppingCart className="text-[#009ad4]" size={30} />
+              <a
+                href="https://icloth.io/cart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaShoppingCart className="text-[#009ad4]" size={30} />
+              </a>
             </div>
           </div>
           {mobiledropdown && (
